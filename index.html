@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing</title>
-    <link rel="stylesheet" href="css/critical.css" />
+    <title>Кредитование</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="title-container">
-      <h1>Hello World</h1>
-    </div>
+    <header>
+      <h1>Получите кредит быстро и удобно</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>О кредите</h2>
+        <p>
+          Мы предлагаем кредиты на любые цели: от 1 000 до 500 000 ₽. Простая
+          заявка, быстрый ответ и прозрачные условия.
+        </p>
+      </section>
+
+      <section>
+        <h2>Оставьте заявку</h2>
+        <form>
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="email" placeholder="Электронная почта" required />
+          <input type="tel" placeholder="Телефон" required />
+          <input type="number" placeholder="Сумма кредита" required />
+          <select required>
+            <option value="">Срок кредита</option>
+            <option value="6">6 месяцев</option>
+            <option value="12">12 месяцев</option>
+            <option value="24">24 месяца</option>
+            <option value="36">36 месяцев</option>
+          </select>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </section>
+    </main>
+
     <img src="images/river.jpeg" alt="alt" />
+
+    <footer>
+      <p>© 2025 Кредитная компания. Все права защищены.</p>
+    </footer>
   </body>
 </html>
